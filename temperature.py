@@ -21,7 +21,6 @@ def CelciusToFahrenheit(): # function to convert Celsius to Fahrenheit
 entry = ctk.CTkEntry(window) # create an entry widget; child of root; this is the input box
 entry.pack(pady=10)
 
-var = ctk.IntVar()
 ctof_btn = ctk.CTkButton(window, text="Celsius to Fahrenheit", command=CelciusToFahrenheit)
 ctof_btn.pack(pady=10)
 
