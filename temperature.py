@@ -22,11 +22,11 @@ entry = ctk.CTkEntry(window) # create an entry widget; child of root; this is th
 entry.pack(pady=10)
 
 var = ctk.IntVar()
-celsius_btn = ctk.CTkButton(window, text="Celsius to Fahrenheit", command=CelciusToFahrenheit)
-celsius_btn.pack(pady=10)
+ctof_btn = ctk.CTkButton(window, text="Celsius to Fahrenheit", command=CelciusToFahrenheit)
+ctof_btn.pack(pady=10)
 
-fahrenheit_btn = ctk.CTkButton(window, text="Fahrenheit to Celsius", command=FahrenheitToCelcius)
-fahrenheit_btn.pack(pady=10)
+ftoc_btn = ctk.CTkButton(window, text="Fahrenheit to Celsius", command=FahrenheitToCelcius)
+ftoc_btn.pack(pady=10)
 
 result_label = ctk.CTkLabel(window, text="", font=("Arial", 24))
 result_label.pack(pady=10)
